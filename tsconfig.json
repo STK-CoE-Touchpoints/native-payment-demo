@@ -1,0 +1,16 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared-payment-platform/payment-sdk": [
+        "./external/shared-payment-platform/libs/payment-sdk/src/index.ts"
+      ],
+      "@shared-payment-platform/payment-ui-native": [
+        "./external/shared-payment-platform/libs/payment-ui-native/src/index.ts"
+      ]
+    }
+  },
+  "include": ["App.tsx", "external/shared-payment-platform/libs/**/*.ts", "external/shared-payment-platform/libs/**/*.tsx"]
+}

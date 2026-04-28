@@ -1,0 +1,3 @@
+[submodule "external/shared-payment-platform"]
+	path = external/shared-payment-platform
+	url = ..\\shared-payment-platform
