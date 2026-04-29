@@ -2,6 +2,8 @@
 
 Ejemplo de repo consumidor (React Native + Expo) que importa `PaymentScreenNative` desde `shared-payment-platform` usando Git Submodule.
 
+> **Demo técnica** — parte de [github.com/STK-CoE-Touchpoints](https://github.com/STK-CoE-Touchpoints). La lógica de pagos es simulada.
+
 ## Estructura
 
 ```text
@@ -19,7 +21,7 @@ native-payment-demo/
 Desde la raiz de `native-payment-demo`:
 
 ```bash
-git submodule add <repo-url> external/shared-payment-platform
+git submodule add https://github.com/STK-CoE-Touchpoints/shared-payment-platform.git external/shared-payment-platform
 git submodule update --init --recursive
 ```
 
