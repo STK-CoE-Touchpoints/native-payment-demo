@@ -1,4 +1,4 @@
 [submodule "external/shared-payment-platform"]
 	path = external/shared-payment-platform
-	url = https://github.com/gerardo-meza_softtek/shared-payment-platform.git
+	url = https://github.com/STK-CoE-Touchpoints/shared-payment-platform.git
 	branch = main
